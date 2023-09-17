@@ -1,0 +1,62 @@
+snippet rfc
+
+export const $1 = () => {
+	return()
+}
+
+endsnippet
+
+snippet rfcp
+import {FC} from 'react';
+
+interface $1Props{
+	$2
+}
+
+export const $1:FC<$1Props> = ($3) => {
+	return()
+}
+
+endsnippet
+
+snippet npc
+import {NextPage} from 'next';
+
+const $1: NextPage = () =>{
+	return()
+}
+
+export default $1
+endsnippet
+
+
+snippet npcp
+import {NextPage} from 'next';
+
+interface $1Props{
+	$2
+}
+
+const $1:NextPage<$1Props> = ($3) =>{
+	return()
+}
+
+export default $1
+endsnippet
+
+
+snippet ushp
+const [$1, set$2$1] = useState<$4>($3);
+endsnippet
+
+snippet ueh
+useEffect(() =>{
+	$1
+}, [])
+endsnippet
+
+snippet lf
+const $1 = () =>{
+
+}
+endsnippet
