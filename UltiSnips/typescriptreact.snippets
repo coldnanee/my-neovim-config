@@ -10,10 +10,9 @@ snippet rfcp
 import {FC} from 'react';
 
 interface $1Props{
-	$2
 }
 
-export const $1:FC<$1Props> = ($3) => {
+export const $1:FC<$1Props> = () => {
 	return()
 }
 
@@ -34,25 +33,14 @@ snippet npcp
 import {NextPage} from 'next';
 
 interface $1Props{
-	$2
+	
 }
 
-const $1:NextPage<$1Props> = ($3) =>{
+const $1:NextPage<$1Props> = () =>{
 	return()
 }
 
 export default $1
-endsnippet
-
-
-snippet ushp
-const [$1, set$2$1] = useState<$4>($3);
-endsnippet
-
-snippet ueh
-useEffect(() =>{
-	$1
-}, [])
 endsnippet
 
 snippet lf

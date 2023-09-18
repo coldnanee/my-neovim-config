@@ -1,7 +1,8 @@
 vim.g.mapleader = " "
 
 
-vim.keymap.set('n', '<leader>w', ':w<CR>')
+vim.keymap.set('n', '<leader>s', ':w<CR>') --save
+vim.keymap.set('n', '<leader>z', ':e!<CR>') --ctrl+z
 
 -- Neotree
 
