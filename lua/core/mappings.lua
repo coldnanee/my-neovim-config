@@ -1,8 +1,14 @@
 vim.g.mapleader = " "
 
 
-vim.keymap.set('n', '<leader>s', ':w<CR>') --save
+vim.keymap.set('n', '<leader>w', ':w<CR>') --save
 vim.keymap.set('n', '<leader>z', ':e!<CR>') --ctrl+z
+
+-- open fold - select fold + zo - visual mode
+-- close fold - select text + zf - visual mode
+
+-- y - copy selected text - visual mode
+-- p - past selected text - visual mode
 
 -- Neotree
 

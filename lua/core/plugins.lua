@@ -60,6 +60,19 @@ require("lazy").setup({
     {
         "folke/todo-comments.nvim",
         dependencies = { "nvim-lua/plenary.nvim" },
-    }
+    }, 
+    { 
+    "nvim-neotest/neotest",
+    dependencies = {
+        "nvim-lua/plenary.nvim",
+        "nvim-treesitter/nvim-treesitter",
+        "antoinemadec/FixCursorHold.nvim",
+        'haydenmeade/neotest-jest',
+    },
+    {
+        'haydenmeade/neotest-jest',
+    },
+    { "folke/neodev.nvim"}
+}
     -- {'akinsho/toggleterm.nvim', version = "*", config = true},
 })

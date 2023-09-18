@@ -23,5 +23,6 @@ require('plugins.lualine')
 require('plugins.terminal')
 require('plugins.whichkey')
 require('plugins.lastplace')
+require('plugins.neotest')
 -- require('plugins.toggleterm')
 -- try to install coc
